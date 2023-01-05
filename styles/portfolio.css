@@ -37,10 +37,11 @@ nav li {
   font-size: 20px;
 }
 .banner {
-  /* display: flex; */
+  display: flex;
   margin: 0px 200px;
   align-items: center;
-  margin-top: 297px;
+  /* margin-top: 297px; */
+  
 }
 .intro {
   font-weight: 600;
@@ -61,7 +62,7 @@ nav li {
 }
 img {
   float: right;
-  margin: 20px;
+  /* margin: 20px; */
 }
 .header {
   background: #d1d1d1;
@@ -186,4 +187,11 @@ input{
 }
 .contact a{
   text-decoration: none;
+}
+.card{
+  width: 50%;
+}
+.men{
+  text-align: left;
+  /* float: right; */
 }
