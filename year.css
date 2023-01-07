@@ -1,0 +1,220 @@
+/* .container{
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100%;
+} */
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+  text-align: right;
+}
+
+.banner {
+  position: relative;
+}
+/* div{
+    margin-right: 10px;
+    padding: 20px;
+} */
+.banner-text {
+  position: absolute;
+  /* margin-right: 10px; */
+  padding: 20px;
+  top: 10%;
+  color: black;
+  text-align: right;
+  margin: 20px;
+  right: 5px;
+}
+
+.quote {
+  /* position: absolute; */
+  width: 525px;
+  height: 228px;
+  /* left: 845px;
+  top: 216px; */
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+  color: #151414;
+  padding: 10px;
+  /* margin: 10px; */
+  /* padding-bottom: 10px; */
+  /* margin-right: 20px; */
+  /* padding-right: 20px; */
+  /* margin-bottom: 10px; */
+}
+
+.description {
+  /* padding-top: 10px; */
+  padding: 10px;
+  /* margin: 10px; */
+  /* margin-top: 10px; */
+  width: 480px;
+  height: 70px;
+  /* left: 876px;
+  top: 468px; */
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  /* or 162% */
+
+  text-align: right;
+
+  /* Dark 02 */
+
+  color: #444343;
+}
+/* header{
+    background-image: url(../new-year-new-me/images/banner/banner1.png);
+
+} */
+.skills {
+  display: flex;
+  align-items: center;
+  
+}
+.plans {
+  /* display: flex; */
+  text-align: center;
+  justify-content: space-around;
+  width: 1141px;
+  height: 299.96px;
+  /* max-width: 1100px; */
+  margin: 0 auto;
+  /* height: 100%; */
+}
+
+.list{
+  display: flex;
+}
+.my {
+  text-align: center;
+}
+
+.popular {
+  width: 416px;
+  height: 104px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #444343;
+}
+
+.super {
+  width: 416px;
+  height: 400px;
+  display: block;
+}
+
+.watch {
+  background-image: url(./images/gradient3.png);
+  /* width: 1140px;
+  height: 300px; */
+
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%);
+  padding: 20px;
+  margin: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.btn-first {
+  font-size: large;
+  font-weight: 500;
+  font-family: sans-serif;
+  background-color: coral;
+  border-radius: 5px;
+  width: 160px;
+  height: 64px;
+  border: 0;
+}
+
+ul li {
+  list-style-type: symbols();
+}
+.mid-body {
+  /* text-align: right; */
+  /* float: top right; */
+  width: 416px;
+  height: 400px;
+  position: absolute;
+}
+main {
+  background-color: white;
+  align-items: center;
+  margin: 0 auto;
+  /* display: flex; */
+}
+.failures {
+  /* position: absolute; */
+  text-align: center;
+}
+
+/* text-decoration: solid; */
+.future {
+  color: white;
+  width: 485px;
+  height: 317px;
+  margin: 40px;
+  padding: 40px;
+}
+
+/* .fut{
+  color: aliceblue;
+  font-weight: 800;
+  margin: 10px;
+  padding: 20px;
+} */
+
+.subscribe {
+  color: white;
+  width: 325px;
+  height: 204px;
+  /* text-align: right; */
+}
+
+.mid {
+  display: flex;
+  text-align: justify;
+  max-width: 1100px;
+  margin: 0 auto;
+  height: 100%;
+}
+.foot {
+  display: flex;
+  background-color: #151414;
+  align-items: center;
+}
+
+i {
+  color: greenyellow;
+}
+.btn-sec {
+  width: 170.11px;
+  height: 64px;
+  border-radius: 5px;
+  color: orange;
+  background-color: white;
+  font-size: large;
+  /* text-align: right; */
+}
+.email {
+  width: 325px;
+  height: 64px;
+  background: #151414;
+  border-radius: 5px;
+  /* text-align: right; */
+}
+
+/* .always{
+  background-image:url(../new-year-new-me/images/watch.png);
+} */
